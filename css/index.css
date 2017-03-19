@@ -1,1 +1,21 @@
+@import "frame.css";
+@import "books.css";
 @import "controls.css";
+@import "confirmation.css";
+
+
+.big {
+	font-size: 2em;
+}
+
+/**
+ * Global variables.
+ */
+:root {
+	--front-color: blue;
+	--superlight-background: #def;
+	--light-background: #def;
+	--light-good: #dfd;
+	--selected-background: #cde;
+	--faded-color: #aaa;
+}

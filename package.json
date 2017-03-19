@@ -1,0 +1,17 @@
+{
+  "name": "ibok-wireframe",
+  "version": "1.0.0",
+  "description": "iBok wireframe for user testing",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "livereload": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+	"serve": "./node_modules/.bin/http-server -a 127.0.0.1 -e xml -p 8000 -o -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Studentmediene i Trondheim",
+  "license": "ISC"
+}

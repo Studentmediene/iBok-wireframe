@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibok.xsl"?>
+<confirmation>
+	<h2>Bokønske registrert</h2>
+	<p>
+		Vi sender deg en e-post når vi finner en selger som vil selge deg boken.
+	</p>
+
+	<a href="/index.xml">Tilbake til forsiden</a>
+</confirmation>

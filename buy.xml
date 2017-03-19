@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibok.xsl"?>
+<raw>
+	<h2>Kjøp "<span class="param-value" data-param-name="book_title"></span>"</h2>
+	<p>Hvilke krav stiller du til boken?</p>
+
+	<form action="/buy_confirmation.xml"
+			data-repository="requisitions">
+
+		<label class="condition-slider">
+			Minste tilstand:
+			<input type="range" name="condition" />
+			<div>Litt slitt</div>
+		</label>
+
+		<label>
+			Maksimal pris
+			<input value="120" type="number" required="" name="price" />
+		</label>
+
+		<label>
+			Sted
+			<select required="" name="place">
+				<option value=""> - Velg - </option>
+				<option>NTNU - Gløshaugen</option>
+				<option>NTNU - Dragvoll</option>
+				<option>HiST</option>
+				<option>UiO</option>
+				<option>UiB</option>
+			</select>
+		</label>
+
+		<button>Fortsett</button>
+	</form>
+</raw>

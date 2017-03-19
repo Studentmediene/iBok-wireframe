@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibok.xsl"?>
+<page>
+	<raw>
+		<h2>Velkommen til iBok!</h2>
+		<p>Søk etter boken du vil kjøpe eller selge</p>
+		<form action="search.xml">
+			<input type="search" />
+			<input type="submit" value="Søk" />
+		</form>
+	</raw>
+</page>

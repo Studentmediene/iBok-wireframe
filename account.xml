@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibok.xsl"?>
+<page>
+	<raw>
+		<h2>Min konto</h2>
+		<h3>Mine detaljer</h3>
+		<form>
+			<label>
+				Navn:
+				<input type="text" value="Christian Roligheten" />
+			</label>
+			<label>
+				E-postadresse:
+				<input type="email" value="christian.roligheten@gmail.com" />
+			</label>
+
+			<button type="submit">Lagre</button>
+		</form>
+
+	</raw>
+</page>

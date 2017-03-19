@@ -1,1 +1,72 @@
-/* Button styling */
+/**
+ * Button styling
+ */
+button,
+input[type='submit'],
+.button {
+	background: var(--light-background);
+	display: inline-block;
+	text-decoration: none;
+	padding: 0.5em;
+	margin: 1em 0.5em;
+	border: none;
+	cursor: pointer;
+}
+
+a.button:visited {
+	color: var(--front-color);
+}
+
+button:hover,
+input[type='submit']:hover,
+.button:hover {
+	background: var(--selected-background);
+}
+
+
+/**
+ * Text inputs
+ */
+input[type='text'],
+input[type='email'],
+input[type='search'],
+input[type='password'] {
+	background: var(--superlight-background);
+	border: none;
+	padding: 0.5em;
+}
+
+/**
+ * Custom condition slider
+ */
+.condition-slider > div {
+	text-align: center;
+	font-size: small;
+}
+
+
+/**
+ * Forms
+ */
+form {
+	display: inline-block;
+	text-align: left;
+	max-width: 30em;
+	margin: 0.5em;
+}
+
+label {
+	display: block;
+	margin: 1em 0;
+}
+
+label > input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+form > button {
+	float: right;
+	clear: both;
+}

@@ -1,0 +1,58 @@
+/**
+ * Styles for book listing.
+ * Used for search
+ */
+.book-list a {
+	text-align: left;
+	overflow: hidden;
+	display: block;
+}
+
+.book-list img {
+	float: left;
+	width: 3em;
+	margin: 1em;
+}
+
+.book-list {
+	list-style: none;
+	padding: 0;
+}
+
+.book-list li {
+	margin: 1em;
+}
+
+.book-list .book {
+	max-width: 40em;
+
+}
+
+.external-prices {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-auto-flow: rows;
+	grid-column-gap: 0.5em;
+	grid-row-gap: 0.5em;
+	list-style: none;
+	max-width: 35em;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.external-prices a {
+	text-align: left;
+	display: block;
+	background: var(--light-background);
+	margin: 0;
+}
+
+.external-prices span {
+	float: right;
+	font-size: 1.2em;
+	margin: 0.4em 0;
+}
+
+.external-prices img {
+	height: 2em;
+}

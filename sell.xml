@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibok.xsl"?>
+<page>
+	<raw>
+		<h2>Selg bok "<span class="param-value" data-param-name="book_title"></span>"</h2>
+	</raw>
+
+	<include href="books/978.xml" />
+
+	<raw>
+		<p>Fyll inn informasjon om boken under.</p>
+
+		<form action="/sell_confirmation.xml">
+			<label title="Hvor slitt boken er">
+				Bokens tilstand:
+				<input type="range" /> Litt slitt
+			</label>
+
+			<label title="Prisen du vil selge for">
+				Minste pris
+				<input value="120" type="number" />
+			</label>
+
+			<label title="Fyll inn hvor du selger boken">
+				Sted
+				<select>
+					<option> - Velg - </option>
+					<option>NTNU - Gløshaugen</option>
+					<option>NTNU - Dragvoll</option>
+					<option>HiST</option>
+					<option>UiO</option>
+					<option>UiB</option>
+				</select>
+			</label>
+
+			<button>Fortsett</button>
+		</form>
+	</raw>
+</page>

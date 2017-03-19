@@ -1,0 +1,6 @@
+.confirmation {
+	max-width: 30em;
+	display: inline-block;
+	background: var(--light-good);
+	padding: 2em;
+}
